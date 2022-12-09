@@ -1,5 +1,5 @@
 <?php
-error_reporting(0);
+require_once 'conf.php';
 function Url($valor){
 	if (empty($_SERVER['HTTPS'])){
 		$serverhttp = "http://";
